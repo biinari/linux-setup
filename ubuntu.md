@@ -5,6 +5,7 @@
 ```sh
 sudo apt install htop vim-gtk3 zenity gocryptfs
 sudo ln -s /usr/bin/python3 /usr/local/bin/python
+sudo apt install software-properties-common
 ```
 
 ## Browsers
