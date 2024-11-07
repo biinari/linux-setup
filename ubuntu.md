@@ -8,6 +8,20 @@ sudo ln -s /usr/bin/python3 /usr/local/bin/python
 sudo apt install software-properties-common
 ```
 
+## GPU
+
+1. [Install amdgpu tools for my graphics card](https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6600-xt.html)
+1. [Use amdgpu-install to install graphics set](https://amdgpu-install.readthedocs.io/en/latest/install-installing.html#installing-the-all-open-use-case)
+    ```sh
+    amdgpu-install --usecase=graphics,opencl --vulkan=amdvlk
+    ```
+
+Add user to video and render groups
+
+```sh
+sudo usermod -a -G render,video bill
+```
+
 ## Browsers
 
 Snap versions of apps do not integrate with 1password desktop app and have an irritating update process. Snap just automatically updates and insists that you have to restart your browser at an inconvenient time. You can pause snap updates for a short period but this is still frustrating.
