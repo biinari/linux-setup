@@ -156,6 +156,8 @@ sudo apt install openssh-server
 sudo apt install docker.io docker-compose-v2
 sudo apt install rbenv
 sudo apt install shellcheck
+sudo apt install nodejs npm
+sudo apt install jq
 ```
 
 Install [go](https://golang.org/dl/)
