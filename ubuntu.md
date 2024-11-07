@@ -161,6 +161,30 @@ Install rubies:
 rbenv install 2.7.5
 ```
 
+### PHP
+
+Use [PHP PPA](https://launchpad.net/~ondrej/+archive/ubuntu/php) to install a newer version if not supported in the main repository.
+
+```sh
+sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
+```
+
+```sh
+VERSION=8.3
+
+sudo apt install \
+    php${VERSION}-cli \
+    php${VERSION}-curl \
+    php${VERSION}-mbstring \
+    php${VERSION}-mysql \
+    php${VERSION}-opcache \
+    php${VERSION}-phpdbg \
+    php${VERSION}-readline \
+    php${VERSION}-xdebug \
+    php${VERSION}-xml \
+    php${VERSION}-zip \
+    ;
+```
 
 ## Remove annoyances
 
