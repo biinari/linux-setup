@@ -186,6 +186,13 @@ sudo apt install \
     ;
 ```
 
+## Youtube Download
+
+```sh
+sudo apt-get install yt-dlp
+sudo apt-get install pandoc
+```
+
 ## Remove annoyances
 
 [Ubuntu 22.04 Annoyances](https://gist.github.com/jfeilbach/f4d0b19df82e04bea8f10cdd5945a4ff)
