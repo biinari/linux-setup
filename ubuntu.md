@@ -34,9 +34,19 @@ Open about:config page and set:
 
 ### Chromium
 
+Remove Ubuntu's snap for Chromium:
+
+```sh
+sudo apt purge chromium-browser
+sudo snap remove --purge chromium
+```
+
+Add Linux Mint chromium as a real apt package:
+
 ```sh
 wget https://mirror.cov.ukservers.com/linuxmint/pool/main/l/linuxmint-keyring/linuxmint-keyring_2022.06.21_all.deb
-sudo apt install linuxmint-keyring_2022.06.21_all.deb
+sudo dpkg -i linuxmint-keyring_2022.06.21_all.deb
+rm linuxmint-keyring_2022.06.21_all.deb
 
 sudo tee /etc/apt/preferences.d/mint-pin >/dev/null <<'PREF'
 # Upgrade only chromium from Linux Mint repository
