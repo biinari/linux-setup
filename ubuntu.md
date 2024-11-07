@@ -158,6 +158,8 @@ sudo apt install rbenv
 sudo apt install shellcheck
 sudo apt install nodejs npm
 sudo apt install jq
+
+sudo usermod -aG docker,disk,audio,video,users,systemd-journal,bluetooth,netdev,scanner bill
 ```
 
 Install [go](https://golang.org/dl/)
