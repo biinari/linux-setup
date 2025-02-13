@@ -179,6 +179,11 @@ Install rubies:
 rbenv install 2.7.5
 ```
 
+Install ruby ripper-tags for vim tags:
+```sh
+sudo RBENV_VERSION=system rbenv exec gem install ripper-tags
+```
+
 ### PHP
 
 Use [PHP PPA](https://launchpad.net/~ondrej/+archive/ubuntu/php) to install a newer version if not supported in the main repository.
