@@ -164,6 +164,11 @@ sudo usermod -aG docker,disk,audio,video,users,systemd-journal,bluetooth,netdev,
 
 Install [go](https://golang.org/dl/)
 
+Install [tparse](https://github.com/mfridman/tparse/) for colour output in tests:
+```sh
+go install github.com/mfridman/tparse@latest
+```
+
 Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 Install [github CLI](https://cli.github.com/)
