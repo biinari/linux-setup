@@ -13,7 +13,10 @@ sudo apt install software-properties-common
 1. [Install amdgpu tools for my graphics card](https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6600-xt.html)
 1. [Use amdgpu-install to install graphics set](https://amdgpu-install.readthedocs.io/en/latest/install-installing.html#installing-the-all-open-use-case)
     ```sh
-    amdgpu-install --usecase=graphics,opencl --vulkan=amdvlk
+    amdgpu-install --usecase=graphics,opencl
+
+    # this breaks hashcat but might be nice for games...
+    amdgpu-install --vulkan=amdvlk
     ```
 
 Add user to video and render groups
