@@ -167,9 +167,9 @@ sudo usermod -aG docker,disk,audio,video,users,systemd-journal,bluetooth,netdev,
 
 Install [go](https://golang.org/dl/)
 
-Install [tparse](https://github.com/mfridman/tparse/) for colour output in tests:
+Install [gotestsum](https://github.com/gotestyourself/gotestsum) for coloured output in go test.
 ```sh
-go install github.com/mfridman/tparse@latest
+go install gotest.tools/gotestsum@latest
 ```
 
 Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
