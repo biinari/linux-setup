@@ -224,6 +224,12 @@ sudo apt-get install yt-dlp
 sudo apt-get install pandoc
 ```
 
+Install Deno sandboxed js runner for yt-dlp EJS
+
+```sh
+curl -fsSL https://deno.land/install.sh | sh
+```
+
 ## Remove annoyances
 
 [Ubuntu 22.04 Annoyances](https://gist.github.com/jfeilbach/f4d0b19df82e04bea8f10cdd5945a4ff)
