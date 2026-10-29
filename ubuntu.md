@@ -217,6 +217,20 @@ sudo apt install \
     ;
 ```
 
+## DVD
+
+Follow [Ubuntu Wiki : Playing DVDs](https://wiki.ubuntu.com/Playing_DVDs)
+
+```sh
+sudo apt install libdvdnav4 libdvdread8 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
+```
+
+Let `libdvd-pkg` download the `libdvdcss2` decryption library:
+
+```sh
+sudo dpkg-reconfigure libdvd-pkg
+```
+
 ## Youtube Download
 
 ```sh
